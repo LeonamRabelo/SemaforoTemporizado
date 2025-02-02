@@ -41,8 +41,8 @@ pico_set_program_name(SemaforoTemporizado "SemaforoTemporizado")
 pico_set_program_version(SemaforoTemporizado "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(SemaforoTemporizado 0)
-pico_enable_stdio_usb(SemaforoTemporizado 0)
+pico_enable_stdio_uart(SemaforoTemporizado 1)
+pico_enable_stdio_usb(SemaforoTemporizado 1)
 
 # Add the standard library to the build
 target_link_libraries(SemaforoTemporizado
