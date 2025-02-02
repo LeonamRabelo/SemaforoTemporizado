@@ -8,7 +8,7 @@
 #define LED_PIN_GREEN 13
 
 //Funcao para inicializar os pinos e comunicação
-void InicizalizaGPIO(){
+void InicializaGPIO(){
     stdio_init_all();     //Inicializa a comunicação serial, permitindo o uso de funções como printf.
 
     //Inicializa pinos dos leds
@@ -46,7 +46,7 @@ return true;
 }
 
 int main(){
-    InicizalizaGPIO();
+    InicializaGPIO();
     
     //Declaração de uma estrutura de temporizador de repetição.
     //Esta estrutura armazenará informações sobre o temporizador configurado.
@@ -57,11 +57,11 @@ int main(){
     //Laço de repetição principal
     while(true){
         if(gpio_get(LED_PIN_RED)==1){   //Verifica se o led vermelho está aceso
-            printf("PARADA OBRIGATÓRIA!!!");
+            printf("PARADA OBRIGATÓRIA!!!\n");
         }else if(gpio_get(LED_PIN_YELLOW)==1){  //Verifica se o led amarelo está aceso
-            printf("SINAL AMARELO, MUITA ATENÇÃO!!!");
+            printf("SINAL AMARELO, MUITA ATENÇÃO!!!\n");
         }else if(gpio_get(LED_PIN_GREEN)==1){   //Verifica se o led verde está aceso
-            printf("SINAL ABERTO, PROSSIGA!");
+            printf("SINAL ABERTO, PROSSIGA!\n");
         }
         sleep_ms(1000); //Intervalo de 1 segundo entre cada verificação para imprimir os alertas
     }
