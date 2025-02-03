@@ -3,9 +3,9 @@
 #include "hardware/timer.h" //Inclui a biblioteca para gerenciamento de temporizadores de hardware.
 
 //Definição dos pinos dos leds
-#define LED_PIN_RED 11
+#define LED_PIN_RED 13
 #define LED_PIN_YELLOW 12
-#define LED_PIN_GREEN 13
+#define LED_PIN_GREEN 11
 
 //Funcao para inicializar os pinos e comunicação
 void InicializaGPIO(){
