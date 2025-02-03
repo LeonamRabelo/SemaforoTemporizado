@@ -51,3 +51,8 @@ Este projeto requer a biblioteca pico-sdk, que deve estar corretamente configura
 
 # Screenshot
 ![alt text](image-1.png)
+
+# Vídeo utilizando a BitDogLab e simulando no Wokwi
+Link para o vídeo: https://youtu.be/Bvz3ca1SJVE
+
+Ps.: Lembrando que o led amarelo da simulação no wokwi está sendo simulado na placa como o led na cor azul.
