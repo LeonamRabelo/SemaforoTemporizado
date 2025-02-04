@@ -24,9 +24,10 @@ CMake
 - Importe o projeto (pasta) a partir da extensão do Raspberry Pi Pico Project
 - Compile o projeto, também por meio da extensão.
 
-No Wokwi VScode:
+*No Wokwi VScode:*
 - Abra o arquivo 'diagram.json' e execute (Play).
-Utilizando a placa física, como a BitDogLab:
+
+*Utilizando a placa física, como a BitDogLab:*
 - Envie o arquivo gerado (.uf2) para a placa Raspberry Pi Pico.
 - Conecte via UART para visualizar as mensagens de status do semáforo.
 
